@@ -4,6 +4,7 @@ import { AuthProvider } from './components/context/AuthContext'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar'
 import Login from './components/Login/Login';
+import Register from './components/Registration/Registration';
 // import Homepage from './components/Homepage/Homepage';
 // import Homepage from './components/Homepage/Homepage'
 import './App.css'
@@ -18,7 +19,7 @@ function App() {
             <Routes>
               {/* <Route path="/" element={<Homepage />} /> */}
               <Route path="/login" element={<Login />} />
-              {/* <Route path="/register" element={<Register />} /> */}
+              <Route path="/register" element={<Register />} />
               {/* <Route path="/movie/:id" element={<MovieDetail />} />
               <Route 
                 path="/admin" 
