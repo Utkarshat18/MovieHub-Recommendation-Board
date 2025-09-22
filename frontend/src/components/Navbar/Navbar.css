@@ -1,0 +1,82 @@
+/* Navbar wrapper */
+.navbar {
+  background-color: #383d41;
+  padding: 15px 30px;
+  margin-bottom: 30px;
+}
+
+/* Container: flexbox */
+.navbar-container {
+  display: flex;
+  justify-content: space-between; /* Logo left, menu right */
+  align-items: center;
+}
+
+/* Logo */
+.navbar-logo {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Right-side menu */
+.navbar-menu {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Auth Buttons wrapper (Login/Register) */
+.auth-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+/* Nav links */
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+/* Welcome message */
+.welcome-text {
+  color: white;
+  margin-left: 10px;
+}
+
+/* Logout button */
+.btn-logout {
+  color: white;
+  border: 1px solid white;
+  padding: 6px 14px;
+  font-size: 14px;
+  background: transparent;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.btn-logout:hover {
+  background-color: white;
+  color: #343a40;
+}
+
+/* Login & Register buttons styled like buttons */
+.btn-auth {
+  border: 1px solid white;
+  padding: 6px 14px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.btn-auth:hover {
+  background-color: white;
+  color: #343a40;
+}
